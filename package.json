@@ -1,0 +1,20 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "watch": "tsup --watch",
+    "once": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "prettier": "^2.8.0",
+    "tsup": "^6.5.0",
+    "typescript": "4.9.3"
+  }
+}
