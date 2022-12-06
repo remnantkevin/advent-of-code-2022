@@ -23,8 +23,6 @@ const rucksackItemLists = data.split("\n").slice(0, -1);
 */
 
 const repeatedItems = rucksackItemLists.map((itemList) => {
-  // const uniqueItemNames = [...new Set(itemList)];
-
   const itemListArray = [...itemList];
   const left = itemListArray.slice(0, itemList.length / 2);
   const right = itemListArray.slice(itemList.length / 2);
