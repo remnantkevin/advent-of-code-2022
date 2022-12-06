@@ -1,6 +1,5 @@
 /** @param plop {import('plop').NodePlopAPI} */
 export default function (plop) {
-  // controller generator
   plop.setGenerator("day", {
     description: "create starter files for a day in Advent of Code",
     prompts: [
@@ -19,12 +18,10 @@ export default function (plop) {
       {
         type: "add",
         path: "day-{{day}}/data",
-        templateFile: "plop-templates/day/data.hbs",
       },
       {
         type: "add",
         path: "day-{{day}}/instructions.md",
-        templateFile: "plop-templates/day/instructions.md.hbs",
       },
     ],
   });
